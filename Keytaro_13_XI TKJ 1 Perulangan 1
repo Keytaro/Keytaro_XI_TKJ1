@@ -1,0 +1,9 @@
+ayam = 100
+bulan = 0
+
+while ayam <= 200:
+    bulan += 1
+    pertambahan_ayam = 0.05 * ayam
+    ayam += pertambahan_ayam
+
+print("Jumlah ayam melebihi 200 ekor pada bulan ke-", bulan)
